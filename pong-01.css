@@ -1,3 +1,34 @@
+body{
+    background-color: black;
+}
+
 #display {
-  background-color: black;
+  background-color: lightblue;
+  display: block;
+  overflow: auto;
+  margin: 0 auto;
+  border: 4px solid plum;
+}
+#content{
+    width: 600px;
+    margin: 0 auto;
+}
+
+button{
+    font-family: Courier New;
+    border: 1px solid ;
+    color: #444;
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-left: 340px;
+    margin-bottom: 15px;
+}
+#options {
+  margin-top: 20px;
+  color: lightblue;
+  text-align: center;
+  font-family: optima, sans-serif;
 }
